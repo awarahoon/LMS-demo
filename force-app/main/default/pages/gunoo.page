@@ -1,0 +1,13 @@
+<apex:page tabStyle="Campaign" >
+    <apex:sectionHeader title="Employees" subtitle="Hero Fincorp" description="We are all Hero Fincorp Employees" help="http://www.herofincorp.com"/>
+      <apex:form >
+          <apex:pageBlock title="Employees List">
+              <apex:pageBlockButtons location="both">
+                  <apex:commandButton value="SAVE" style="color:green;background:yellow"/>
+                  <apex:commandButton value="CANCEL"/>
+                 </apex:pageBlockButtons>
+                 Raj<br/>
+                 Ram<br/>
+                 </apex:pageBlock>
+                 </apex:form>
+                 </apex:page>

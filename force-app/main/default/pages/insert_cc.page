@@ -1,0 +1,42 @@
+<apex:page controller="CustomSaveButton" >
+<apex:form >
+<apex:pageBlock title="Employee" >
+
+<apex:pageBlockButtons >
+
+<apex:commandButton value="Save" action="{!saveRecord}"   />
+
+
+</apex:pageBlockButtons>
+
+<apex:pageBlockSection title="Employee Data"  >
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="Employee Name" /> 
+<apex:inputText value="{!ename}" /> 
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="Job" /> 
+<apex:inputText value="{!ejob}" /> 
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="Salary" /> 
+<apex:inputText value="{!esalary}" /> 
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="Employee deptno" /> 
+<apex:inputText value="{!edept}" /> 
+</apex:pageBlockSectionItem>
+
+
+ 
+
+     
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+
+</apex:page>

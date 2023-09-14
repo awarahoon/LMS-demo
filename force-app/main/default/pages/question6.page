@@ -1,0 +1,31 @@
+<apex:page >
+<apex:form >
+<apex:pageBlock title="Customer Details">
+<apex:pageBlockButtons >
+<apex:commandButton value="SAVE" action="{!save}"/>
+<apex:commandButton value="CANCEL" action="{!cancel}"/>
+</apex:pageBlockButtons>
+<apex:pageBlockSection title="Customer Information" collapsible="false">
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="Customer id:"/>
+<apex:inputtext />
+</apex:pageBlockSectionItem> <br/>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="Customer Name:"/>
+<apex:inputtext />
+</apex:pageBlockSectionItem><br/>
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="Customer Age:"/>
+<apex:inputtext />
+</apex:pageBlockSectionItem><br/>
+
+
+
+</apex:pageBlockSection>
+
+</apex:pageBlock>
+
+</apex:form>
+</apex:page>

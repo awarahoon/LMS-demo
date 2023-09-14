@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VALIDATION_1</fullName>
+    <active>true</active>
+    <errorConditionFormula>SellItem_Stock__c &gt; Merchandise__r.Merchandise_Stock__c</errorConditionFormula>
+    <errorMessage>Sorry we are out of stock :(</errorMessage>
+</ValidationRule>

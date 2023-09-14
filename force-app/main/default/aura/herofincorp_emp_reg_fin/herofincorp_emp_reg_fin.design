@@ -1,0 +1,3 @@
+<design:component>
+    <design:attribute name="formHeading" label="Change Form Heading" datasource="Hero Fincorp Employee Registration Form,Hero Moto Corp Reggistration Form"/>
+</design:component>
